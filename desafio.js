@@ -1,8 +1,9 @@
-let nome = prompt("Digite o nome do herói: ");
 
-let xp = parseInt(prompt("Digite o xp atual: "));
-
+let nome = "well";
+let xp = 8000;
 let nivel;
+
+
 
 switch (true) {
     case (xp < 250):
@@ -32,4 +33,4 @@ switch (true) {
     
 }   
 
-alert("O Heroi de nome **${nome}** esta no nivel **${nivel}**");
+console.log("O nome do heroi é " + JSON.stringify(nome) + " e esta no nivel: " + JSON.stringify(nivel));
